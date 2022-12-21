@@ -314,6 +314,11 @@ public class register extends javax.swing.JFrame {
         jButton17.setFont(new java.awt.Font("Arial", 1, 13)); // NOI18N
         jButton17.setForeground(new java.awt.Color(255, 0, 0));
         jButton17.setText("Enter Student Details");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
         jButton18.setFont(new java.awt.Font("Arial Black", 0, 13)); // NOI18N
         jButton18.setText("Enter Result");
@@ -509,6 +514,10 @@ public class register extends javax.swing.JFrame {
         setVisible(false);
         new adminHome().setVisible(true);
     }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton17ActionPerformed
 
     /**
      * @param args the command line arguments

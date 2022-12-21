@@ -15,6 +15,7 @@ public class adminHome extends javax.swing.JFrame {
      */
     public adminHome() {
         initComponents();
+        setSize(700,500);
     }
 
     /**
